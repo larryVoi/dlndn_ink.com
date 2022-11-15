@@ -1,0 +1,122 @@
+body{
+    background-color:#2c5771 ;
+    
+}
+
+h3{
+    font-size: smaller;
+    outline-color: antiquewhite;
+    padding-left: 0.5%;
+    background-color: white;
+    text-align: center;
+}
+
+
+#logo img{
+    border-radius: 80%;
+    opacity: 1.5;
+    
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    opacity: 1.5;
+    font-family:'Courier New', Courier, monospace;
+    font-size: larger;
+    padding-left: 2%;
+    background-image: url('img/bgtattoo.jpg');
+    border-radius: 5px;
+    
+}
+
+#information{
+    padding-left: 2.5%;
+
+}
+
+#a{
+    list-style-image:url('img/contact\ logo.png');
+    font-style: italic;
+    color:white;
+    
+}
+a:link {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: rgb(55, 255, 255);
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+#b{
+    list-style-image:url('img/address\ logo.jpg');
+    font-style: italic;
+    color:white;
+}
+
+#c{
+    list-style-image:url('img/fb\ logo.png');
+    font-style: italic;
+    color:white;
+
+}
+
+#d{
+    list-style-image:url('img/instagramlogo.png');
+    font-style: italic;
+    color:white;
+}
+#e{
+    list-style-image:url('img/exp\ logo.png');
+    font-style: italic;
+    color:white;
+}
+
+
+*{
+    box-sizing:border-box;
+}
+
+.image{
+    float: left;
+    width:25%;
+    padding: 30px;
+    background-image: url('img/bgtattoo.jpg');
+}
+
+.image #pic{
+    width: 85%;
+    height: 200px;
+
+}
+
+footer{
+    background-color: #030a27;
+    border-radius: 0.5%;
+    padding-top: 1%;
+    padding-bottom: 12%;
+    padding-left: 1%;
+    color:white;
+    font-size:medium;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 110px;
+    margin-top: -110px;
+    bottom: 0;
+    position: relative;
+    clear: both;
+    overflow: hidden;
+}
